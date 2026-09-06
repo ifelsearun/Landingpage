@@ -54,3 +54,8 @@ button {
     border-radius: 3px;
     border-style: none;
 }
+
+.hero {
+    display: flex;
+    align-items: center;
+}
