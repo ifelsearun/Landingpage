@@ -2,8 +2,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    display: flex;
-    flex-direction: column;
+    text-align: center;
     margin: 0;
 }
 
@@ -30,7 +29,6 @@ ul {
 }
 
 .header {
-    border: 1px solid white;
     display: flex;
     justify-content: space-around;
     align-items: center;
