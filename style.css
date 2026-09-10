@@ -76,6 +76,7 @@ button {
 .information {
     display: flex;
     justify-content: center;
+    gap: 50px;
 }
 
 img {
@@ -127,7 +128,7 @@ img {
     padding: 0;
     display: flex;
     justify-content: center;
-    margin: 30px;
+    margin: 40px;
 }
 
 .call-to-action {
@@ -161,3 +162,10 @@ img {
     margin-top: auto;
 }
 
+/* Footer section */
+
+.footer {
+    color: white;
+    padding: 28px;
+    margin-top: 24px;
+}
