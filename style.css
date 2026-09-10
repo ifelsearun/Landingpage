@@ -6,6 +6,10 @@ body {
     margin: 0;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+}
 .upper-body, 
 .footer {
     background-color: #1F2937;
@@ -81,4 +85,36 @@ img {
     width: 100px;
     margin: 10px;
     font-size: 11px;
+}
+
+/* Quote section */
+
+.container-2 {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    margin: 40px 0;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 200px;
+    width: 600px;
+    text-align: left;
+}
+
+.auther {
+    margin-right: 24px;
+    font-weight: 900;
+}
+
+.quote {
+    font-size: 26px;
+    color: #1f2937c2;
+    font-weight: 300;
+    font-style: italic;
 }
