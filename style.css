@@ -9,6 +9,7 @@ body {
 .container {
     display: flex;
     flex-direction: column;
+    max-height: auto;
 }
 .upper-body, 
 .footer {
@@ -36,6 +37,7 @@ ul {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-shrink: 1;
 }
 
 /* Hero section */
@@ -118,3 +120,44 @@ img {
     font-weight: 300;
     font-style: italic;
 }
+
+/* call to action section */
+
+.container-3 {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 28px;
+    border-radius: 7px;
+    background-color: #3882F6;
+    text-align: left;
+    width: 800px;
+    flex-shrink: 1;
+}
+
+.main-text1 {
+    color: #F9FAF8;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.second-text2 {
+    color: #e5e7ebd3;
+    font-size: 15px;
+}
+
+.button {
+    color: #faf8f8;
+    border: 2px solid white;
+    padding: 5px 10px;
+    width: 100px;
+    margin-top: auto;
+}
+
