@@ -49,11 +49,36 @@ ul {
 button {
     background-color: #3882F6;
     color: #F9FAF8;
-    border-radius: 3px;
+    border-radius: 5px;
     border-style: none;
+    padding: 5px 20px;
 }
 
 .hero {
     display: flex;
     align-items: center;
+}
+
+/* infromation section */
+ 
+.info-title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    border-radius: 8px;
+    height: 90px;
+}
+.info, text{
+    padding: 0;
+    width: 100px;
+    margin: 10px;
+    font-size: 11px;
 }
